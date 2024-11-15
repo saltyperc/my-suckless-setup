@@ -11,12 +11,14 @@
   modkey4 (win), and better key binding optimizations.
 
   *NOTE* You need Nerd Font Symbols installed to see dwmblock 
-  symbols. (go to https://www.nerdfonts.com, create \.font\ 
+  symbols. (go to https://www.nerdfonts.com, create ".font" 
   directory in "~/" and place the nerd symbol (or any font) files in 
   it.)
 
-  *For Noobs* Compile with \sudo make install\ or \sudo make clean install\ 
+  *For Noobs* Compile with {sudo make install} or {sudo make clean install} 
   after downloading or making changes.
 
   *For Super Noobs* Ensure Dwm is executed at start (may be different if using
-  a display manager) \touch ~/xinitrc && echo "exec dwm" >> ~/xinitrc\
+  a display manager) if needed {touch ~/xinitrc} then {echo "exec dwm" >> 
+  ~/xinitrc} Note that this exec command needs to be at the end of your xinitrc, 
+  and that no other WM or DE is before or after it.
