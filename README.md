@@ -4,7 +4,7 @@
 
   Very minimal dwm setup. Cleaned up patches: full gaps, shift 
   tools, attach below, always center. To utilize more  
-  functionality of shift-tools, read the shift-tools.c file and 
+  functionality of shift tools, read the circular-view.c file and 
   add/remove/change bindings in config.h. This is meant to be a
   better "clean slate" for dwm, keeping it mostly vanilla. 
   Quality-of-life changes include: swapped modkey1 (alt) to 
